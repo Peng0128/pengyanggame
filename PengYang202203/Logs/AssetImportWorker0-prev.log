@@ -15,11 +15,11 @@ D:/GITHUB/pengyanggame/PengYang202203
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59973
+58500
 Successfully changed project path to: D:/GITHUB/pengyanggame/PengYang202203
 D:/GITHUB/pengyanggame/PengYang202203
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 132.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 157.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,141 +35,46 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001544 seconds.
+Registered in 0.087727 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (765ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (603ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (251ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003559 seconds.
+Registered in 0.095876 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GITHUB\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1382ms)
-		BeginReloadAssembly (171ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1142ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.73 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2804.
-Total: 3.596700 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.155400 ms  DeleteObjects: 0.033600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Character/像素-角色-4拆分.psb
-  artifactKey: Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/像素-角色-4拆分.psb using Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee48c0205420f24252f8ec3f42b75931') in 0.926571 seconds 
-  Import took 0.932976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 446.811993 seconds.
-  path: Assets/Pixel Fantasy Caves/Sliced/mainlev_build.png
-  artifactKey: Guid(f3431b64a116bf248a3f497144e67b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Fantasy Caves/Sliced/mainlev_build.png using Guid(f3431b64a116bf248a3f497144e67b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7691cd9be5fb603967dab11bfe1a6267') in 2.682102 seconds 
-  Import took 2.693607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Pixel Fantasy Caves/Sliced/props1.png
-  artifactKey: Guid(c244c027ceea8f04b91dcc837253127d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Fantasy Caves/Sliced/props1.png using Guid(c244c027ceea8f04b91dcc837253127d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe622c8ccac5a72d6a916e428e63811') in 7.162442 seconds 
-  Import took 7.178358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Pixel Fantasy Caves/Sliced/props2.png
-  artifactKey: Guid(c88f92988ad2f8e46a53fc0098c7c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Fantasy Caves/Sliced/props2.png using Guid(c88f92988ad2f8e46a53fc0098c7c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f91f2c0acece487636f22a16743971') in 4.937397 seconds 
-  Import took 4.957129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.850313 seconds.
-  path: Assets/Pixel Fantasy Caves/Scenes
-  artifactKey: Guid(99582f7721c94254ca8a28001f97d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Fantasy Caves/Scenes using Guid(99582f7721c94254ca8a28001f97d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa861e70263a1013c472399607570d9') in 1.074846 seconds 
-  Import took 1.087228 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

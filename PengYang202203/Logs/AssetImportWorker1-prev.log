@@ -1,0 +1,549 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'zh' Physical Memory: 12155 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GITHUB/pengyanggame/PengYang202203
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58500
+Successfully changed project path to: D:/GITHUB/pengyanggame/PengYang202203
+D:/GITHUB/pengyanggame/PengYang202203
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 104.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GITHUB/pengyanggame/PengYang202203/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001827 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003156 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 109.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2057ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 7.436000 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.281100 ms MarkObjects: 6.631000 ms  DeleteObjects: 0.048400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Character/像素-角色-4拆分.psb
+  artifactKey: Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/像素-角色-4拆分.psb using Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a46e8c52dfd0e4227a177d071f928f7') in 0.501557 seconds 
+  Import took 0.535879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4427.172478 seconds.
+  path: Assets/Character/New Animation_try 20220601.anim
+  artifactKey: Guid(8a244f9c949d2e749858cdf2820c7497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/New Animation_try 20220601.anim using Guid(8a244f9c949d2e749858cdf2820c7497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fe393ebac504d82206835a44861f1e') in 0.017300 seconds 
+  Import took 0.085606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.970109 seconds.
+  path: Assets/Character/New Animation_player stay.anim
+  artifactKey: Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/New Animation_player stay.anim using Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ad6e6a2d610d897b31c88804d91282') in 0.014632 seconds 
+  Import took 0.066222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.497346 seconds.
+  path: Assets/Animation/PlayerStay.anim
+  artifactKey: Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerStay.anim using Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6613aaa8d76f38e94ee5967ba28e9d52') in 0.013601 seconds 
+  Import took 0.046946 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3011ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2722ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (2036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (1904ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.1 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 4.339700 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.137900 ms MarkObjects: 3.946200 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003461 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.1 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 4.651200 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.132600 ms MarkObjects: 4.245300 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2007.207830 seconds.
+  path: Assets/Character/像素-角色-4拆分.psb
+  artifactKey: Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/像素-角色-4拆分.psb using Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94185d9e5fa75468ccbbda05edf9a98') in 0.212395 seconds 
+  Import took 0.254379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.242778 seconds.
+  path: Assets/Pixel Fantasy Caves/background1.png
+  artifactKey: Guid(38dfa8c3b7cb9c34e8728c80c179319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/background1.png using Guid(38dfa8c3b7cb9c34e8728c80c179319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d73252030b6c2028a16fcba761355e7') in 0.197356 seconds 
+  Import took 0.236587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Pixel Fantasy Caves/background4b.png
+  artifactKey: Guid(f2c63cd02a5021e4aa78859519eef703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/background4b.png using Guid(f2c63cd02a5021e4aa78859519eef703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15adacb8e99ae04062d72419b9d8e63d') in 0.064334 seconds 
+  Import took 0.096031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Pixel Fantasy Caves/mainlev_build.png
+  artifactKey: Guid(a2148cb95fda2a246b72a3834f9dc4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/mainlev_build.png using Guid(a2148cb95fda2a246b72a3834f9dc4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed76276e3cd6420c2b970f71ca8577a') in 0.707053 seconds 
+  Import took 0.764295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Pixel Fantasy Caves/props2.asset
+  artifactKey: Guid(fc56efa1a7d04614e955059e869f9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/props2.asset using Guid(fc56efa1a7d04614e955059e869f9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4333f332e1ce33b587c546fb610c86f') in 0.103516 seconds 
+  Import took 0.148549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/Pixel Fantasy Caves/background2.png
+  artifactKey: Guid(ab399925d444e6945b12d20b9f3f62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/background2.png using Guid(ab399925d444e6945b12d20b9f3f62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e85fb3132b33d658b5c1d3cfb78ece') in 0.079688 seconds 
+  Import took 0.108614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Pixel Fantasy Caves/props2.png
+  artifactKey: Guid(527d271e3ba3f9843ba89bf17ea61f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/props2.png using Guid(527d271e3ba3f9843ba89bf17ea61f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59104c70a054c209d9fbe4528c8b29ff') in 0.070391 seconds 
+  Import took 0.085033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Pixel Fantasy Caves/background3.png
+  artifactKey: Guid(d9caa294ebb856845a4e0af508e49dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/background3.png using Guid(d9caa294ebb856845a4e0af508e49dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cf1925e145a6230c5020cb881e8a26') in 0.043709 seconds 
+  Import took 0.087112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Pixel Fantasy Caves/background4a.png
+  artifactKey: Guid(335e30b416040a24b88a1c16eda337f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/background4a.png using Guid(335e30b416040a24b88a1c16eda337f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10125abf10d19c1c553e803d5e9da3c3') in 0.034900 seconds 
+  Import took 0.068672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Pixel Fantasy Caves/props1.png
+  artifactKey: Guid(3cf71ed10f82738479ff578acaa2e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Fantasy Caves/props1.png using Guid(3cf71ed10f82738479ff578acaa2e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd9017734f9d80fe6c1d29121ac9861') in 0.108096 seconds 
+  Import took 0.131227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 743.321689 seconds.
+  path: Assets/Monster/像素-怪物-01.png
+  artifactKey: Guid(1214aab421ef3d843a17449a8ee93914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-01.png using Guid(1214aab421ef3d843a17449a8ee93914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c211ad334cc807e2bcafeebb72d3b23') in 2.346701 seconds 
+  Import took 2.383523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Monster/像素-怪物-03.png
+  artifactKey: Guid(e0af47534d7c7594c9625b0406b3808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-03.png using Guid(e0af47534d7c7594c9625b0406b3808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d85d0fc8f69b887704599730996547') in 0.072195 seconds 
+  Import took 0.094302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Monster/像素-怪物-02.png
+  artifactKey: Guid(c4bbe3d58e7a8ca48850bf0b5cae0e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-02.png using Guid(c4bbe3d58e7a8ca48850bf0b5cae0e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f951cdb4ad38beb76c4f3a2900ca235') in 0.099454 seconds 
+  Import took 0.127637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Monster/像素-怪物-04.png
+  artifactKey: Guid(c3022db7463f4a242b96588dd6c378d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-04.png using Guid(c3022db7463f4a242b96588dd6c378d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6819a5fc45b4dc8c05b8a7aceb47d676') in 0.109561 seconds 
+  Import took 0.128738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Monster/像素-怪物-05.png
+  artifactKey: Guid(959e088fafad1f44296e05a2c9a239f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-05.png using Guid(959e088fafad1f44296e05a2c9a239f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daad25804e1d1b48fa534596f0c9f93') in 0.080771 seconds 
+  Import took 0.109768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Monster/像素-怪物-06.png
+  artifactKey: Guid(cba7aef62043b8c488683772aaf19d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/像素-怪物-06.png using Guid(cba7aef62043b8c488683772aaf19d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4996e965dc440b5efdbf4cbc0c1008e6') in 0.087401 seconds 
+  Import took 0.119777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 946.463063 seconds.
+  path: Assets/Animation/Player.controller
+  artifactKey: Guid(edbe890fda390fa4fbee27df6545668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player.controller using Guid(edbe890fda390fa4fbee27df6545668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5326d4090b89e08b38d76e27b6b0263f') in 2.296105 seconds 
+  Import took 2.306844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.292134 seconds.
+  path: Assets/Animation/PlayerWalk.anim
+  artifactKey: Guid(fafd5c45cf4b3194e8bcf86cc997e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerWalk.anim using Guid(fafd5c45cf4b3194e8bcf86cc997e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78578847346439a639b952a0d206c73') in 0.010643 seconds 
+  Import took 2.280553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001294 seconds.
+  path: Assets/Animation/PlayerStay.anim
+  artifactKey: Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerStay.anim using Guid(f6d648888a9599e4d8c790caf785a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111f4adc121e08f55cb15a92346e26d5') in 0.031734 seconds 
+  Import took 0.060939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500622 seconds.
+  path: Assets/Animation/PlayerJump.anim
+  artifactKey: Guid(9d9297c71f47e7e4fb9be935d0741cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerJump.anim using Guid(9d9297c71f47e7e4fb9be935d0741cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9715dffc998d311a5ec837570e69e98') in 0.011662 seconds 
+  Import took 0.053745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.231915 seconds.
+  path: Assets/Animation/PlayerCrouching.anim
+  artifactKey: Guid(a274b61edef9232408d651cda57827a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerCrouching.anim using Guid(a274b61edef9232408d651cda57827a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc64e029df549144095324748934701') in 0.012599 seconds 
+  Import took 0.037057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.116681 seconds.
+  path: Assets/Animation/PlayerIdle.anim
+  artifactKey: Guid(d395dcd3c7f6e0d4f84612ff47eb9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PlayerIdle.anim using Guid(d395dcd3c7f6e0d4f84612ff47eb9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0d43aafa107dfc2baa96daad8e0a7e') in 0.042807 seconds 
+  Import took 0.068951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002996 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 3.587600 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.137600 ms MarkObjects: 3.186800 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.959989 seconds.
+  path: Assets/Animation/Enemy.controller
+  artifactKey: Guid(cc620c217c419d8429e311a2678c23e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemy.controller using Guid(cc620c217c419d8429e311a2678c23e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0931ab958b5754721c40eca27c7f733f') in 2.151979 seconds 
+  Import took 2.181697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.406570 seconds.
+  path: Assets/Animation/EnemyAttack.anim
+  artifactKey: Guid(e8a896f70b2038644ae6d4e231d11a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/EnemyAttack.anim using Guid(e8a896f70b2038644ae6d4e231d11a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ea90adc0f35e9cbe1946ea9ffd1ae6') in 0.031217 seconds 
+  Import took 0.054229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.826494 seconds.
+  path: Assets/Animation/EnemyIdle.anim
+  artifactKey: Guid(0f0534d9481b2fc4a929eefe2dac96ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/EnemyIdle.anim using Guid(0f0534d9481b2fc4a929eefe2dac96ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6ad7c0ab8728e28abb387a8c5cad8b') in 0.011366 seconds 
+  Import took 0.067414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482903 seconds.
+  path: Assets/Animation/EnemyWalk.anim
+  artifactKey: Guid(209c7bae9b99cac469d9bf69b8e7dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/EnemyWalk.anim using Guid(209c7bae9b99cac469d9bf69b8e7dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24763e0285e6d319ac4d9d4935cda2da') in 0.012014 seconds 
+  Import took 0.044188 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
