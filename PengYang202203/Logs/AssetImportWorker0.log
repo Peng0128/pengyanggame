@@ -1,79 +1,295 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'zh' Physical Memory: 12155 MB
+OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'zh' Physical Memory: 16318 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.26f1\Editor\Unity.exe
+D:\作品\遊戲\Unity\2020.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GITHUB/pengyanggame/PengYang202203
+D:/Unity/Project/pengyanggame/PengYang202203
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59096
-Successfully changed project path to: D:/GITHUB/pengyanggame/PengYang202203
-D:/GITHUB/pengyanggame/PengYang202203
+57891
+Successfully changed project path to: D:/Unity/Project/pengyanggame/PengYang202203
+D:/Unity/Project/pengyanggame/PengYang202203
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GITHUB/pengyanggame/PengYang202203/Assets
+[Subsystems] Discovering subsystems at path D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Project/pengyanggame/PengYang202203/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   27.21.14.6611
+    VRAM:     5980 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Mono path[0] = 'D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.333838 seconds.
+Register platform support module: D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/作品/遊戲/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001583 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 87.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.029 seconds
+- Completed reload, in  0.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6030ms)
-		BeginReloadAssembly (4359ms)
+	ReloadAssembly (545ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (4368ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (690ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.538039 seconds.
+Registered in 0.003662 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002637A1C6010 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002634AD09080 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637633C250 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375BBB500 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375A50D20 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A5E1630 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A1C6010 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637AC449C0 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375E78240 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A288B00 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A459020 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A488630 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637B78B220 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A488630 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637AC449C0 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375E78240 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375A3E020 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000263759B3260 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A405020 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375CC5740 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A665A30 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637B857010 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375D7C750 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026375A63F30 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A673A40 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A8F6E30 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A673A40 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637AB95240 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637B608A50 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A91C020 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A782E30 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637B8EE030 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637AD0BE30 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637B0E8430 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A2A8240 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002637A288B00 doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Project\pengyanggame\PengYang202203\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 2.881600 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.058700 ms MarkObjects: 2.581300 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(24bb8c569ce8e0f4583e01592bc3da23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(24bb8c569ce8e0f4583e01592bc3da23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac19df847cef04646ceccddd8ae332d') in 0.030010 seconds 
+  Import took 0.033651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ddf0b8193e787ec91e51dc77d57936') in 0.014534 seconds 
+  Import took 0.017951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.244718 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4942255d2c7c47a6fdfc5b529afe186d') in 0.003778 seconds 
+  Import took 0.008239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.571934 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433391c5e753edcace7df252d53a4baf') in 0.008085 seconds 
+  Import took 0.012445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.741190 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cedc822d1f5fb785f1631c8af1c679d') in 0.002338 seconds 
+  Import took 0.006310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.818905 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c1d8a75c5cdedbc3625d819116d38c') in 0.002191 seconds 
+  Import took 0.006059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.358104 seconds.
+  path: Assets/Character
+  artifactKey: Guid(40eefe66610e7ff49ab6681997a86398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(40eefe66610e7ff49ab6681997a86398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f5ae46f258fc549d94453a4a00c6d1') in 0.006365 seconds 
+  Import took 0.010456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043820 seconds.
+  path: Assets/Character/像素-角色-3_new-01.png
+  artifactKey: Guid(ae0bedb1c67aec548acde33263f69de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/像素-角色-3_new-01.png using Guid(ae0bedb1c67aec548acde33263f69de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8481c0e9cece9e532f82d646699b49fc') in 0.275202 seconds 
+  Import took 0.279021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Character/像素-角色-4拆分.psb
+  artifactKey: Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/像素-角色-4拆分.psb using Guid(74b25653130aed7429b5e51671b0c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72be97ef6d60a7c94cec43a8ee6084b') in 0.127590 seconds 
+  Import took 0.131268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.135902 seconds.
+  path: Assets/Character/像素-角色-4拆分.controller
+  artifactKey: Guid(b5bbeb3b1ddcd6940a34d5c2e2d35fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/像素-角色-4拆分.controller using Guid(b5bbeb3b1ddcd6940a34d5c2e2d35fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918c450beb4002ef601996056fd5fc5') in 0.005763 seconds 
+  Import took 0.009841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.747146 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(70348f54fd491484a954a4d8242773b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856847bb0d95a9f4b4ccef32e522c09') in 0.002084 seconds 
+  Import took 0.025434 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
